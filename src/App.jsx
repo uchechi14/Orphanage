@@ -1,4 +1,5 @@
 import './App.css'
+
 import Footer from './components/Footer'
 import ForthComponent from './components/ForthComponent'
 import Header from './components/Header'
@@ -14,6 +15,7 @@ function App() {
     <ThirdComponent />
     <ForthComponent />
     <Footer />
+
     </>
   )
 }

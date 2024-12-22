@@ -9,8 +9,18 @@ const SecondComponent = () => {
     <div className='w-full flex justify-center mt-11'>
         <div className='w-[80%] flex flex-col items-center '>
             <p className='text-center text-[25px] font-serif'>Sponsor a Child</p>
-            <p className='w-[50%] text-center mt-2 font-serif text-[15px] tablet:w-full'>Your sponsorship gives a child hope for a brighter future. It ensures they have access to basic necessities like education, medical care, and emotional support.</p>
-            <div className='flex gap-3 flex-wrap mt-3 tablet:justify-center'>
+            <p className='w-[50%] text-center mt-2 font-serif text-[20px] tablet:w-full'>You can make this christmas memorable for the children by making donations</p>
+            <div>
+                <div className="flex mt-4 gap-4 tablet:flex-col tablet:items-center">
+                    <p className="font-medium">RCCG-HEPHZIBAH HOMES </p>
+                    <p className="font-medium">1014542663 (Naira) Zenith Bank </p>
+                </div>
+                <div className="flex mt-4 gap-4 tablet:flex-col tablet:items-center ">
+                <p className="font-medium">RCCG Tree Of Life </p>
+                <p className="font-medium ml-20 tablet:ml-0">5366041069 (Dollar) Zenith Bank </p>
+                </div>
+            </div>
+            <div className='flex gap-3 flex-wrap mt-6 justify-center'>
                 <div className='w-[250px] h-[300px] justify-center bg-[#EEEEEE] rounded-se-3xl rounded-es-3xl flex flex-col items-center'>
                     <div><img src={help} /></div>
                     <p className='text-[18px] font-medium mt-2'>Make a Difference</p>

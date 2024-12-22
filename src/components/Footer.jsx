@@ -20,9 +20,9 @@ const Footer = () => {
             <div className='flex  gap-6 tablet:flex-wrap tablet:mt-5 tablet:justify-between '>
                 <div className=''>
                     <h1 className='font-bold'>Contact Us</h1>
-                    <p>234 ojudu, Lagos Nigeria</p>
-                    <p className='mt-1'>+234 802 336 747 88</p>
-                    <p className='mt-1'>orphanhome23@gmail.com</p>
+                    <p className='w-[300px]'>Off Aradagun Busstop, after Opeyemi group of schools by Arowolo Street Badagry, Lagos State</p>
+                    <p className='mt-1'>08 10 424 8407</p>
+                    <p className='mt-1'>Hephzibahhomes@yahoo.com</p>
                 </div>
                 <div>
                     <h1 className='font-bold'>Quick Link</h1>
@@ -34,12 +34,12 @@ const Footer = () => {
                 <div>
                     <h1 className='font-bold'>News Letter</h1>
                     <p>Stay updated on our latest news and events!</p>
-                    <p className='mt-1'>orphanhome23@gmail.com</p>
+                    <p className='mt-1'>Hephzibahhomes@yahoo.com</p>
                     <p className='mt-1'>Subscribe</p>
                 </div>
             </div>
             <div>
-                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  mt-2  rounded-md font-medium transition ease-in-out duration-300'>Donate Now!</button>
+                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  mt-2  rounded-md font-medium transition ease-in-out duration-300'>Donate Here</button>
             </div>
         </div>
         <div className='border-t-[0.5px] border-[#5a5858] w-full flex justify-center py-5'>

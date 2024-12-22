@@ -63,7 +63,7 @@ const Header = () => {
                 <nav className='text-[17px] font-medium font-serif '>Program</nav>
                 <nav className='text-[17px] font-medium font-serif'>Contact Us</nav>
             </div>
-            <button className={`py-[10px] px-3 rounded-md font-medium tablet:hidden transition ease-in-out duration-300 ${scrollPosition > 200 ? "bg-white hover:bg-[#D4BEE4] text-[#9B7EBD] " : "bg-[#9B7EBD] hover:bg-[#D4BEE4] text-white" }`}>Donate Now</button>
+            <button className={`py-[10px] px-3 rounded-md font-medium tablet:hidden transition ease-in-out duration-300 ${scrollPosition > 200 ? "bg-white hover:bg-[#D4BEE4] text-[#9B7EBD] " : "bg-[#9B7EBD] hover:bg-[#D4BEE4] text-black" } font-semibold`}>Donate!</button>
             <div className='hidden tablet:flex font-bold'>HEPHZIBAH HOME</div>
             
         </div>
@@ -74,7 +74,7 @@ const Header = () => {
                 <nav className='text-[17px] font-medium font-serif mt-2'>About Us</nav>
                 <nav className='text-[17px] font-medium font-serif mt-2'>Program</nav>
                 <nav className='text-[17px] font-medium font-serif mt-2'>Contact Us</nav>
-                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  mt-2  rounded-md font-medium transition ease-in-out duration-300'>Donate Now</button>
+                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  mt-2  rounded-md font-medium transition ease-in-out duration-300 '>Donate!</button>
             </div>
             
         ) }
@@ -85,8 +85,8 @@ const Header = () => {
                 </div> */}
                <div className='tablet:flex tablet:flex-col tablet:items-center'>
                <h1 className='text-responsiveText font-serif tablet:text-center font-extrabold text-white'>Hope, Love, and Care for Every Child in Need</h1>
-                <p className='text-[17px] font-serif text-white w-[500px] tablet:w-full'>We provide shelter, education, and hope to orphaned children across the community.Together, we can create a world where every child feels loved.</p>
-                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  rounded-md font-medium mt-4 transition ease-in-out duration-300' >Learn more</button>
+                <p className='text-[17px] font-serif text-white w-[500px] tablet:w-full'>Hephzibah Homes is a Home for orphans, destitute and vulnerable children. It is owned by a parish of the Redeemed Christian Church of God(Tree of life parish)</p>
+                <button className='py-[10px] px-3 bg-[#9B7EBD] hover:bg-[#D4BEE4]  rounded-md text-[17px]  mt-4 transition ease-in-out duration-300 font-semibold' >Donate!</button>
                </div>
             </div>
             {/* <div className='w-full tablet:mt-5  flex flex-col items-center'>  */}
