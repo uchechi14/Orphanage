@@ -69,7 +69,7 @@ const Header = () => {
         </div>
         </div>
         {open && (
-            <div className='fixed  top-16 left-[200px] flex-col transform md:hidden -translate-x-1/2 w-[300px]  bg-white rounded-sm shadow-2xl p-6 z-50 h-[250px]'  ref={openRef}>
+            <div className='fixed  top-16 left-[150px] flex-col transform md:hidden -translate-x-1/2 w-[300px]  bg-white rounded-sm shadow-2xl p-6 z-50 h-[250px]'  ref={openRef}>
                 <nav className='text-[17px] font-medium font-serif'>Home</nav>
                 <nav className='text-[17px] font-medium font-serif mt-2'>About Us</nav>
                 <nav className='text-[17px] font-medium font-serif mt-2'>Program</nav>

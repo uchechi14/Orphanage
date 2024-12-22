@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='border-t-[0.5px] border-[#5a5858] w-full flex justify-center py-5'>
-        <p className="copyright">Copyright {new Date().getFullYear()}@orphansHome. All rights reserved.</p>
+        <p className="copyright text-center">Copyright {new Date().getFullYear()}@orphansHome. All rights reserved.</p>
         </div>
     </div>
   )
